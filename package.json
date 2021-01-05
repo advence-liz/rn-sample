@@ -1,26 +1,30 @@
 {
-  "name": "sample",
-  "version": "0.0.1",
-  "private": true,
-  "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
-  },
-  "dependencies": {
-    "react": "16.8.3",
-    "react-native": "0.59.9",
-    "react-native-svg": "^9.13.6"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.7.5",
-    "@babel/runtime": "^7.7.6",
-    "babel-jest": "^24.9.0",
-    "jest": "^24.9.0",
-    "metro-react-native-babel-preset": "^0.57.0",
-    "react-native-iconfont-cli": "^1.6.3",
-    "react-test-renderer": "16.8.3"
-  },
-  "jest": {
-    "preset": "react-native"
-  }
+    "name": "sample",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "start": "node node_modules/react-native/local-cli/cli.js start",
+        "compiler": "react-vue-native-scripts compiler",
+        "test": "jest"
+    },
+    "dependencies": {
+        "react": "16.8.3",
+        "react-native": "0.59.9",
+        "react-native-svg": "^9.13.6",
+        "react-vue": "^0.0.5",
+        "react-vue-helper": "^0.0.7",
+        "react-vue-native-scripts": "^0.0.5"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.7.5",
+        "@babel/runtime": "^7.7.6",
+        "babel-jest": "^24.9.0",
+        "jest": "^24.9.0",
+        "metro-react-native-babel-preset": "^0.57.0",
+        "react-native-iconfont-cli": "^1.6.3",
+        "react-test-renderer": "16.8.3"
+    },
+    "jest": {
+        "preset": "react-native"
+    }
 }
